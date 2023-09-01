@@ -1,0 +1,21 @@
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family:Arial, Helvetica, sans-serif;
+   background-color: darkgray;
+
+}
+.main{
+    display: flex;
+    width: 1000px;
+    height: 800px;
+    border: 1px solid transparent;
+    border-radius: 5%; 
+    background-color: white;
+    margin-top: 70px; 
+}
+a{
+    text-decoration: none;
+}
+

@@ -1,0 +1,176 @@
+.middleColumn{
+    width: 63%;
+    padding:30px 45px;
+    background-color:#EFF0F0;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  }
+.middleColumn .part1{
+ display: flex;
+ justify-content: space-between;
+ height: 5%;
+ align-items: center;
+}
+.middleColumn .part1 .list-icons{
+display: flex;
+gap: 10px;
+justify-content: space-between;
+align-items: center;
+
+}
+.middleColumn .part1 .select-icon{
+    background-color: white;
+    padding:7px;
+    border-radius: 5px;
+    font-size: x-small;
+    color: #6B6B6B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+ } 
+ .middleColumn .part2{
+ height: 29%;
+ display: flex;
+ gap:15px;
+ }
+ .middleColumn .part2 .box{
+ height: 100%;
+ border: 3px solid white;
+ border-radius: 15px;
+ padding: 20px 15px; 
+ box-sizing: border-box;
+ width: 25%;
+ display: flex;
+ flex-direction: column;
+ gap:3px;
+}
+.middleColumn .part2 .box:hover{
+ background-color: white;
+ cursor: pointer;
+}
+.middleColumn .part2 #second-box{
+  background-color: white;
+}
+.middleColumn .part2 .box p{
+ font-size: small;
+ margin: 0px;
+ color:#D6D6D6;
+}
+.middleColumn .part2 .box h1{
+   font-weight: 400;
+   margin-bottom: 3px;
+}
+.middleColumn .part2 .box .ellips-solid{
+ align-self: flex-end;
+ margin-top: 30px;
+}
+
+.middleColumn .part3{
+   border: 1px solid transparent;
+   height: 35%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   box-sizing: border-box;
+   background-color: white;
+   border-radius: 15px;
+   gap:10px;
+    }
+    .middleColumn .part3 .c-content{
+     align-self:center;
+     height: 85%;
+     width: 85%;
+    }
+    .middleColumn .part3 .c-title{
+     margin: 0px;
+     height: 10%;
+     display: flex;
+     justify-content: space-between;
+     padding: 10px 20px 0px;
+     
+    }
+    .middleColumn .part3 .c-title .chart-title, p{
+     margin: 0px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap:5px;
+    }
+    .middleColumn .part3 .c-title span.gain-circle{
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color:goldenrod;
+      display: inline-block;
+      margin-right: 3px;
+    }
+    .middleColumn .part3 .c-title span.lost-circle{
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: #BB2525;
+      display: inline-block;
+    }
+    .middleColumn .part3 .c-title .gained, .lost{
+     font-size: small;
+     font-weight: 600;
+    }
+    
+ .middleColumn .part4{
+     border: 1px solid transparent;
+     height: 28%;
+     display: flex;
+     gap:10px;
+     box-sizing: border-box;
+
+     }
+     .middleColumn .part4 .metrics{
+      display: flex;
+      width: 55%;
+      flex-direction: column;
+      box-sizing: border-box;
+      padding:0px 15px ;
+      background-color: white;
+      border-radius: 15px;
+
+     }
+     .middleColumn .hr-metric{
+        border: 1px solid #EFF0F0; 
+        width: 100%;
+     }
+     .middleColumn .part4 .title-metric{
+       margin-bottom:20px;
+     }
+ .middleColumn .part4 .param1, .param2, .param3, .param4{
+   display: flex;
+   justify-content: space-between;
+   font-size: small;
+   color: #6B6B6B;
+ 
+    }
+    .middleColumn .part4 .table1, .table2{
+        display: flex;
+        width: 24%;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding:0px 12px ;
+        background-color: white;
+        border-radius: 15px;
+        color:white;
+        background-color: purple;
+        text-align: center;
+        justify-content: space-between;
+  
+       }
+       .middleColumn .part4 .table1 .table-bottom, .table2 .table-bottom{
+        font-size: smaller;
+        
+       }
+       .middleColumn .part4 .table1 p, .table2 p{
+        display: flex;
+        justify-content: center;
+        gap:5px;
+        padding-bottom: 15px;
+       }
